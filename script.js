@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", function getDayAndTime() {
-  const dayOfWeekElement = document.querySelector(
-    '[data-testid="currentDayOfTheWeek"]'
-  );
+  const dayOfWeekElement = document.querySelector('[data-testid="currentDay"]');
   const utcTimeElement = document.querySelector(
-    '[data-testid="currentUTCTime"]'
+    '[data-testid="currentTimeUTC"]'
   );
 
   function getDayOfWeek() {
