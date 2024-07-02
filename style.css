@@ -25,6 +25,10 @@ img {
   border-radius: 100%;
 }
 
+header p {
+  margin: 10px;
+}
+
 section {
   padding: 20px;
 }
@@ -41,7 +45,7 @@ article ul {
 }
 
 article ul li {
-  margin-bottom: 5;
+  margin-bottom: 10px;
   line-height: 1.6;
   font-weight: 300;
 }
